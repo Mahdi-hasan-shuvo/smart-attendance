@@ -14,9 +14,9 @@ A Smart Attendance System that uses facial recognition technology to automate th
 Before running the project, make sure to have the following installed:
 
 - Python 3.x
-- `face_recognition` library
+- `face_recognition` library 
 - `opencv-python` (for webcam access)
-- `numpy` (for handling arrays)
+- `mahdix` (for handling color)
 - `cv2` (for img frame handling )
 
 
