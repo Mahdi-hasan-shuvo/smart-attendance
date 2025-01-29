@@ -44,7 +44,7 @@ while True:
         distances = face_distance(loads_face, face_encoding)
         best_match_index = distances.argmin()  # Find the closest match
         if distances[best_match_index] < 0.6:  # If the distance is less than 0.6, it's a match
-            print(f"Found match on frame {cap.get(cv2.CAP_PROP_FRAME_COUNT)} for student {data_student[best_match_index]['Name_name']}")
+            print(f"{LI_WHITE}Found match on frame {LI_YELLOW}{cap.get(cv2.CAP_PROP_FRAME_COUNT)} for student {LI_GREEN}{data_student[best_match_index]['Name_name']}")
             student_name = data_student[best_match_index]
             put_text=f'{student_name["Name_name"]}[{student_name["F_faculty"]}-{student_name["S_symester"]}]'
             cv2.putText(frame, str(student_name["I_id"]), (left, top - 5), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (255, 0, 0), 2)
