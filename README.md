@@ -16,7 +16,7 @@ Before running the project, make sure to have the following installed:
 - Python 3.x
 - `face_recognition` library 
 - `opencv-python` (for webcam access)
-- `mahdix` (for handling color)
+- `mahdix` (for handling text color)
 - `cv2` (for img frame handling )
 
 
