@@ -19,3 +19,7 @@ Before running the project, make sure to have the following installed:
 - `numpy` (for handling arrays)
 - `cv2` (for storing video )
 
+
+
+https://github.com/user-attachments/assets/fd8ab635-4c09-413b-9140-ce694b9a3c62
+
