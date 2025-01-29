@@ -17,7 +17,7 @@ Before running the project, make sure to have the following installed:
 - `face_recognition` library
 - `opencv-python` (for webcam access)
 - `numpy` (for handling arrays)
-- `cv2` (for storing video )
+- `cv2` (for img frame handling )
 
 
 
