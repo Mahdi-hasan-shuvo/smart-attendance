@@ -1,6 +1,6 @@
 # Smart Attendance System using Face Recognition
 
-A Smart Attendance System that uses facial recognition technology to automate the process of tracking attendance. This project is built using Python and the **face_recognition** library, with support for real-time face recognition using a webcam.
+A Smart Attendance System that uses facial recognition technology to automate the process of tracking attendance. This project is built using Python and the **face_recognition** library, with support for real-time face recognition using a webcam or video .
 
 ## Features
 
