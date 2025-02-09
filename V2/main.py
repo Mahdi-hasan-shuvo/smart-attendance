@@ -15,7 +15,7 @@ import cv2
 from time import sleep
 from threading import Thread
 import requests  
-
+from deepface import DeepFace
 # from pymongo import MongoClient
 # this is a online database use mongodb 
 # connection_string = "mongodb+srv://test12345678:123@cluster0.5cc7yod.mongodb.net/"
